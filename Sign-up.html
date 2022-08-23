@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #form-heading{
+            font-size: 32px;
+            padding-top: 16px;
+            padding-bottom: 10px;
+
+        }
+        #social-wraper{
+            background-color: #f2f6ff;
+            padding: 18px;
+        }
+        body{
+            background-color: #f2f6ff;
+            margin: 0%;
+            padding: 16px;
+        }
+        form{
+            text-align: center;
+            background-color: white;
+            width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            border: 1px solid #ccc;
+        }
+        .social-icon{
+            height: 30px;
+            width: 30px;
+            padding-top: 14px;
+            padding-bottom: 14px;   
+            padding-left: 32px;
+            padding-right: 32px;
+            cursor: pointer;
+        }
+        .input-div{
+            margin-top: 20px;
+
+        }
+        .input-box{
+            font-size: 18px;
+            padding-bottom: 12px;
+            margin-bottom: 36px;
+            border: 0;
+            color: #ccc;
+            width: 100%; 
+            border: none;
+            outline:none;     
+        }
+     
+
+        #input-wraper{
+           width: 500px;
+          margin-left: auto;
+          margin-right: auto    ;
+
+
+        }
+        #btn-submit{
+            padding: 5px;
+            background-color: #0056ff;
+            cursor: pointer;
+            color: white;
+            border: none;
+            margin-bottom: 10px;
+            text-decoration: solid;
+            text-transform: capitalize;
+            border-radius: 10px;
+            font-size: 24px;
+
+        }
+    </style>
+</head>
+<body>
+   <form>
+       <div>
+       <h1 id="form-heading">Register </h1>
+           <div id="social-wraper">
+               <a href="https://www.linkedin.com/"><img class="social-icon" src="./download (1).png" alt="Linkd-In Logo"/></a>
+               <a href="https://facebook.com/"><img class="social-icon" src="./download.png" alt="Facebook Logo"/></a>
+               <a href="https://github.com/"><img class="social-icon" src="./GitHub-Mark.png" alt="Git-Hub Logo"/></a>
+               <a href="https://www.google.com/"><img class="social-icon" src="./google-logo.jpg" alt="Google Logo"/></a>
+           </div>
+           <div id="input-wraper">
+               <div class="input-div">
+                   <input class="input-box" type="text" name="username" placeholder="Username" required>
+               </div>
+               <div>
+                <input class="input-box" type="email" name="email" placeholder="email" required>
+            </div>
+            <div>
+                <input class="input-box" type="password" name="password" placeholder="password" required>
+            </div>
+            <div>
+                <input class="input-box" type="password" name="Conform-password" placeholder="conform password" required>
+            </div>
+            <input id="btn-submit" type="submit" value="register" name="register">
+           </div>
+        </div>
+       
+   </form>
+</body>
+</html>
